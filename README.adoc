@@ -25,7 +25,7 @@ Nous fournissons différents projets Eclipse servant de base de travail aux exer
 TIP: Fermer chaque projet Eclipse (sans supprimer les sources) avant de passer à l'exercice suivant pour éviter de confondre les projets ex1 et ex2.
 
 
-### Exercice 1 - Etudier une API REST sans couches
+### Exercicee 1 - Etudier une API REST sans couches
 _Temps estimé : 40 mins_
 
 * Importer dans Eclipse les projets `todolist-debut-ex1` et `todolist-debut-ex2`.

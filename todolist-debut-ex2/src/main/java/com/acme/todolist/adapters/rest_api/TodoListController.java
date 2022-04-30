@@ -26,7 +26,7 @@ public class TodoListController {
 	private GetTodoItems getTodoItemsQuery;
 	private AddTodoItem addTodoItemQuery;
 	
-	//fait aujourd'hui
+	//fait
 	@Inject
 	public TodoListController(GetTodoItems getTodoItemsQuery, AddTodoItem addTodoItemQuery) {
 		this.getTodoItemsQuery = getTodoItemsQuery;
@@ -42,7 +42,6 @@ public class TodoListController {
 	// Endpoint de type POST vers "/todos" --fait
 	@PostMapping("/todos")
 	public void ajouterItem(@RequestBody TodoItem item) {
-		//System.out.println("fgfhjgfdxwwsdfghy");	
 		this.addTodoItemQuery.addTodoItem(item);	
 	}
 	

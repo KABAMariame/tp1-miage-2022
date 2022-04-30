@@ -25,7 +25,7 @@ Nous fournissons différents projets Eclipse servant de base de travail aux exer
 TIP: Fermer chaque projet Eclipse (sans supprimer les sources) avant de passer à l'exercice suivant pour éviter de confondre les projets ex1 et ex2.
 
 
-### Exercicee 1 - Etudier une API REST sans couches
+### Exercice 1 - Etudier une API REST sans couches
 _Temps estimé : 40 mins_
 
 * Importer dans Eclipse les projets `todolist-debut-ex1` et `todolist-debut-ex2`.
@@ -127,8 +127,10 @@ _Temps estimé : 20 mins_
 * Implémenter (en junit) des TU sur la règle de gestion qui consiste à afficher `[LATE!]` dans la description d'un item en retard de plus de 24h.
 
 *Quels types de tests devra-t-on écrire pour les adapteurs ?* 
+Nous devrons ecrire des tests d'integrations. Par exemple verifier que l'ajout d'un Item fonctionne correctement.
 
 *Que teste-on dans ce cas ?*
+On teste l'ensemble des methodes qui sont mobilisées pour assurer cette fonctionnalité.
 
 *S'il vous reste du temps, écrire quelques uns de ces types de test.*
 
